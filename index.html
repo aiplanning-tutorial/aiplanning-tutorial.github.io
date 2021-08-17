@@ -1,170 +1,206 @@
 <!doctype html public '-//W3C//DTD HTML 4.01//EN'
-  'http://www.w3.org/TR/html4/strict.dtd'>
+        'http://www.w3.org/TR/html4/strict.dtd'>
 <!-- styles:  Chocolate, Midnight, Modernist, Oldstyle, Steely,
-Swiss, Traditional, and Ultramarine. --> <html>
+Swiss, Traditional, and Ultramarine. -->
+<html>
 
-    <head>
-         <title>Tutorial on AI Planning: Theory and Practice</title>
-  <meta http-equiv="Refresh" content="3600">
-  <meta name="abstract"    content="Tutorial on AI Planning">
-  <meta name="author" content="Michael Katz">
-  <meta name="language" content="en-US">
-  <meta name="rating" content="GENERAL">
-  <meta name="robots" content="ALL">
+<head>
+    <title>Tutorial on AI Planning: Theory and Practice</title>
+    <meta http-equiv="Refresh" content="3600">
+    <meta name="abstract" content="Tutorial on AI Planning">
+    <meta name="author" content="Michael Katz">
+    <meta name="language" content="en-US">
+    <meta name="rating" content="GENERAL">
+    <meta name="robots" content="ALL">
 
-<meta name="description" content="Michael Katz: Tutorial on AI Planning">
-<meta name="keywords" content="Michael, Katz, planning, planning complexity, heuristics, search, STRIPS, SAS, abstractions, landmarks">
-    </head>
+    <meta name="description" content="Michael Katz: Tutorial on AI Planning">
+    <meta name="keywords"
+          content="Michael, Katz, planning, planning complexity, heuristics, search, STRIPS, SAS, abstractions, landmarks">
+</head>
 </head>
 
 <body>
 
 
+<p>
 
-<p> 
 
+<h1>IJCAI2021 Tutorial on AI Planning: Theory and Practice</h1>
+<h2>Aug 19 10:00 &mdash; 16:00 Montreal Time (UTC-4) </h2>
 
-    <h1>IJCAI2021 Tutorial on AI Planning: Theory and Practice</h1>
-    <h2>Aug 19 10:00 – 16:00 Montreal Time (UTC-4) </h2>
+<h2><a href="https://researcher.watson.ibm.com/researcher/view.php?person=us-ssohrab">Shirin Sohrabi</a>, <a
+        href="https://researcher.watson.ibm.com/researcher/view.php?person=ibm-Michael.Katz1">Michael Katz</a>, <a
+        href="https://www.linkedin.com/in/octavian-udrea-954aa7200/">Octavian Udrea</a></h2> <br>
 
-    <h2>Shirin Sohrabi, Michael Katz, Octavian Udrea </h2> <br>
-
-    <h2>A two-sentence description of the tutorial:</h2>
-    <p>The tutorial provides a theoretical background on AI Planning and introduces some of the existing tools, as well as existing applications that were tackled with these tools. We show how to use the tools on an example application. The participants will get the knowledge and hands-on experience necessary to start using AI Planning tools in their applications.</p>
-    <h2>A two-paragraph description of the tutorial, suitable for a web page overview:</h2>
-    <p>AI Planning is a long standing sub-area of AI. Planning applications can be found in dialog systems, cybersecurity, transportation and logistics, as well as IT. Yet, applying AI Planning research in practice faces several challenges, preventing its widespread use. The aim of this tutorial is to provide the audience with the necessary theoretical background knowledge, as well as hands-on experience to allow for using planning tools for solving everyday challenges.</p>
-    <p>In this tutorial, we will provide an overview of the field of planning, including recent advances in the field. We will then dive into three challenges: (1) modeling – how to represent, extract, and learn the knowledge; (2) theory – formal definition of the computational problems; (3) tooling – how to solve the computational problems. We will have a hands-on session to exemplify the use of planning tools for solving an example application. Our aim is to give IJCAI attendees the necessary means for using AI planning tools in their applications.</p>
-    <h2>Tutorial length: 1/2 day</h2>
-    <h2>Tutorial outline</h2>
-    <ol>
+<h2>Brief description</h2>
+<p>The tutorial provides a theoretical background on AI Planning and introduces some of the existing tools, as well as
+    existing applications that were tackled with these tools. We show how to use the tools on an example application.
+    The participants will get the knowledge and hands-on experience necessary to start using AI Planning tools in their
+    applications.</p>
+<h2>Overview</h2>
+<p>AI Planning is a long standing sub-area of AI. Planning applications can be found in dialog systems, cybersecurity,
+    transportation and logistics, as well as IT. Yet, applying AI Planning research in practice faces several
+    challenges, preventing its widespread use. The aim of this tutorial is to provide the audience with the necessary
+    theoretical background knowledge, as well as hands-on experience to allow for using planning tools for solving
+    everyday challenges.</p>
+<p>In this tutorial, we will provide an overview of the field of planning, including recent advances in the field. We
+    will then dive into three challenges: (1) modeling &mdash; how to represent, extract, and learn the knowledge; (2) theory &mdash; formal definition of the computational problems; (3) tooling &mdash; how to solve the computational problems. We will
+    have a hands-on session to exemplify the use of planning tools for solving an example application. Our aim is to
+    give IJCAI attendees the necessary means for using AI planning tools in their applications.</p>
+<h2>Tutorial length: 1/2 day</h2>
+<h2>Tutorial outline</h2>
+<ol>
     <li>Introduction
-    <ul>
-    <li>Why? Motivation of this Tutorial – applications</li>
-    <li>What is AI Planning</li>
-    <li>Why AI Planning is important</li>
-    <li>How to Spot a Planning Problem – why these applications are planning problems</li>
-    <li>AI Planning, how it works</li>
-    <li>Challenges (Theory, Modeling, Tools)</li>
-    <li>Agenda</li>
-    </ul>
+        <ul>
+            <li>Why? Motivation of this Tutorial &mdash; applications</li>
+            <li>What is AI Planning</li>
+            <li>Why AI Planning is important</li>
+            <li>How to Spot a Planning Problem &mdash; why these applications are planning problems</li>
+            <li>AI Planning, how it works</li>
+            <li>Challenges (Theory, Modeling, Tools)</li>
+            <li>Agenda</li>
+        </ul>
     </li>
     <li>Theory
-    <ul>
-    <li>Quick overview of AI planning (models and languages)</li>
-    <li>Classical planning formalism	and approaches</li>
-    <li>Top-k and top-quality planning</li>
-    <li>Diverse planning</li>
-    <li>Richer formalisms</li>
-    </ul>
+        <ul>
+            <li>Quick overview of AI planning (models and languages)</li>
+            <li>Classical planning formalism and approaches</li>
+            <li>Top-k and top-quality planning</li>
+            <li>Diverse planning</li>
+            <li>Richer formalisms</li>
+        </ul>
     </li>
     <li>Modeling
-    <ul>
-    <li>Why is this hard?</li>
-    <li>Transformations
-    <ul>
-    <li>State Projection as Planning</li>
-    <li>Plan Recognition as Planning</li>
-    <li>Soft goals</li>
-    <li>HTN to classical planning</li>
-    <li>Other: Partial observability to classical planning/ Diagnosis/Explanation Generation/Hypothesis Generation as Planning, multi-agent plan recognition</li>
-    </ul>
-    </li>
-    <li>Overview of our solutions to address this (Cascade, LTS++, MindMaps), and lessons learned</li>
-    <li>Overview of other approaches (i.e., outside of IBM: ItSimple)</li>
-    <li>Learning (causal extraction – IBM)</li>
-    <li>Learning (others outside of IBM – lots of work led by Rao et al.)</li>
-    </ul>
+        <ul>
+            <li>Why is this hard?</li>
+            <li>Transformations
+                <ul>
+                    <li>State Projection as Planning</li>
+                    <li>Plan Recognition as Planning</li>
+                    <li>Soft goals</li>
+                    <li>HTN to classical planning</li>
+                    <li>Other: Partial observability to classical planning/ Diagnosis/Explanation Generation/Hypothesis
+                        Generation as Planning, multi-agent plan recognition
+                    </li>
+                </ul>
+            </li>
+            <li>Overview of our solutions to address this (Cascade, LTS++, MindMaps), and lessons learned</li>
+            <li>Overview of other approaches (i.e., outside of IBM: ItSimple)</li>
+            <li>Learning (causal extraction &mdash; IBM)</li>
+            <li>Learning (others outside of IBM &mdash; lots of work led by Rao et al.)</li>
+        </ul>
     </li>
     <li>Tools and Applications
-    <ul>
-    <li>Challenges (UI/Human)</li>
-    <li>Pre/Post Processing</li>
-    <li>An end-to-end walk through of an application (Machine learning pipeline generation) using various tools (this will be a hands-on session)
-    <ol>
-    <li>Problem Definition</li>
-    <li>Modeling</li>
-    <li>Transformation (HTN to classical planning transformation)</li>
-    <li>Additional constraints</li>
-    <li>Computation of plans (planning service, top-k planning)</li>
-    <li>Postprocessing of the plans</li>
-    </ol>
+        <ul>
+            <li>Challenges in Using AI Planning in Applications</li>
+            <li>Pre/Post Processing</li>
+            <li>Hands on: Automating ML pipeline generation/exploration (instructions <a href="https://github.com/IBM/grammar2pddl">here</a> and <a href="#handson">more details</a>)
+                <ol>
+                    <li>Problem Definition</li>
+                    <li>Modeling</li>
+                    <li>Transformation (HTN to classical planning transformation)</li>
+                    <li>Additional constraints</li>
+                    <li>Computation of plans (top-k planning)</li>
+                    <li>Postprocessing of the plans to pipelines</li>
+                    <li>Pipeline accuracy and its translation to action costs</li>
+                </ol>
+            </li>
+            <li>Quick overview of other applications:
+                <ol>
+                    <li>Automated Analytic Composition</li>
+                    <li>Data Science Automation</li>
+                    <li>Hypothesis generation</li>
+                    <li>Scenario Planning</li>
+                </ol>
+            </li>
+        </ul>
     </li>
-    <li>Quick overview of other applications:
-    <ol>
-    <li>MARIO and CADS</li>
-    <li>Hypothesis generation/Planning projector</li>
-    <li>SPA</li>
-    </ol>
+    <li>Summary and Q&amp;A
+        <ul>
+            <li>Lessons learned</li>
+            <li>Improvements/future work</li>
+        </ul>
     </li>
-    <li>Other tools: PDDLEditor, PlanUtil, PDDLGym, Tarski, various translators</li>
-    <li>Other planners: diverse planners, top-quality planners, planners for richer formalisms (e.g., HTN planners, FOND planners, probabilistic planners, temporal planners, numeric planners).</li>
-    </ul>
+</ol>
+<h2><a name="handson">ML pipeline generation/exploration hands-on</a></h2>
+<ul>
+    <li>Instructions for the hands-on part and the code/notebooks you need are <a href="https://github.com/IBM/grammar2pddl">on Github</a></li>
+    <li>Some planning tools we will be using in this tutorial:
+        <ul>
+            <li><a href="https://github.com/ronwalf/HTN-Translation">HTN2PDDL translation</a></li>
+            <li><a href="https://github.com/ctpelok77/kstar">K* planner</a></li>
+            <li><a href="https://github.com/AI-Planning/planutils">PlanUtils</a></li>
+            <li><a href="https://marketplace.visualstudio.com/items?itemName=jan-dolejsi.pddl">PDDLEditor plugin for VSCode</a></li>
+        </ul>
     </li>
-    <li>Summary and Q/A
-    <ul>
-    <li>Lessons learned</li>
-    <li>Feedback we have received on our tools</li>
-    <li>Take home message</li>
-    <li>Future work</li>
-    <li>References</li>
-    </ul>
-    </li>
-    </ol>
-    <h2>A brief characterization of the potential target audience for the tutorial, including prerequisite knowledge.</h2>
-    <p>Potential target audience are researchers from outside the field of planning, most of the typical IJCAI attendees. No prior knowledge is necessary, since we plan to cover all the necessary background. In particular, we hope that researchers with no prior exposure to AI Planning will find our tutorial interesting and motivating for their work.</p>
-    <h2>A brief description of why the tutorial topic should be of interest to a substantial part of the IJCAI audience, and which of the above objectives are best served by the tutorial.</h2>
-    <p>Our main goal is to give the attendees the necessary knowledge and experience so that they can start using AI Planning tools in their applications. We plan to cover several applications of AI Planning, challenges, and solutions and give the attendees a hands-on experience of using planning tools in one of these applications.</p>
-    <p>The following objectives fit out tutorial:</p>
-    <ol>
+</ul>
+
+<h2>Target Audience</h2>
+<p>Potential target audience are researchers from outside the field of planning, most of the typical IJCAI attendees. No
+    prior knowledge is necessary, since we plan to cover all the necessary background. In particular, we hope that
+    researchers with no prior exposure to AI Planning will find our tutorial interesting and motivating for their
+    work.</p>
+<h2>Why Should I Attend</h2>
+<p>Our main goal is to give the attendees the necessary knowledge and experience so that they can start using AI
+    Planning tools in their applications. We plan to cover several applications of AI Planning, challenges, and
+    solutions and give the attendees a hands-on experience of using planning tools in one of these applications.</p>
+<p>The following objectives fit out tutorial:</p>
+<ol>
     <li>Educate experts or non experts to established but specialized AI methodologies</li>
     <li>Introduce expert non-specialists to an AI area</li>
-    </ol>
-    
-    <br>
- 
+</ol>
+
+<br>
+
 <h2>Useful links</h2>
 
 <h3>Major Planning Toolkits/Systems/Families</h3>
-<a href="https://fai.cs.uni-saarland.de/hoffmann/ff.html">Fast-Forward (better known as FF)</a>  <br>
+<a href="https://fai.cs.uni-saarland.de/hoffmann/ff.html">Fast-Forward (better known as FF)</a> <br>
 <a href="http://www.fast-downward.org">Fast Downward</a> <br>
 <a href="https://lapkt-dev.github.io/docs">Lightweight Automated Planning ToolKiT (LAPKT)</a> <br>
 <a href="https://lpg.unibs.it/lpg">LPG</a> <br>
 <a href="https://sourceforge.net/projects/shop">SHOP2</a> <br>
-<a href="https://nms.kcl.ac.uk/planning/software/optic.html">OPTIC</a>.  <br>
+<a href="https://nms.kcl.ac.uk/planning/software/optic.html">OPTIC</a>. <br>
 
 <h3>Non-IPC Planners and Tools</h3>
 
-<a href="https://github.com/ibm/AIPlanningService">Planning service</a> for cost-optimal, agile, satisficing, top-k, top-quality, diverse planning, also available as 
+<a href="https://github.com/ibm/AIPlanningService">Planning service</a> for cost-optimal, agile, satisficing, top-k,
+top-quality, diverse planning, also available as
 <a href="https://hub.docker.com/r/ctpelok77/ibmresearchaiplanningsolver">docker image</a> <br>
-<a href="http://solver.planning.domains">Planner in the cloud</a> and a collection of 
+<a href="http://solver.planning.domains">Planner in the cloud</a> and a collection of
 <a href="http://planning.domains">tools</a> <br>
-<a href="https://github.com/ibm/forbiditerative">Forbid-Iterative</a> Collection of planners for top-k, top-quality, diverse planning <br>
-Top-k planners <a href="https://github.com/ctpelok77/kstar">K*</a>  and 
+<a href="https://github.com/ibm/forbiditerative">Forbid-Iterative</a> Collection of planners for top-k, top-quality,
+diverse planning <br>
+Top-k planners <a href="https://github.com/ctpelok77/kstar">K*</a> and
 <a href="https://github.com/speckdavid/symk">SymK</a> <br>
 OSP planners <a href="https://zenodo.org/record/3346088">A*-based</a> and
 <a href="https://github.com/speckdavid/symbolic-osp">symbolic- search-based</a> <br>
 FOND planner <a href="https://github.com/QuMuLab/planner-for-relevant-policies">PRP</a> <br>
-<a href="https://github.com/aibasel/pyperplan">Pyperplan</a> Lightweight python-based planner developed for educational purposes <br>
+<a href="https://github.com/aibasel/pyperplan">Pyperplan</a> Lightweight python-based planner developed for educational
+purposes <br>
 
 <h3>Other Major Community Efforts</h3>
 
-<a href="https://join.slack.com/t/theplanningcommunity/shared_invite/zt-8qa5h88g-SKS2jG7moAwZQFbqxqlbfQ">Slack workspace</a> <br>
+<a href="https://join.slack.com/t/theplanningcommunity/shared_invite/zt-8qa5h88g-SKS2jG7moAwZQFbqxqlbfQ">Slack
+    workspace</a> <br>
 <a href="https://www.icaps-conference.org">ICAPS web site</a> <br>
 <a href="https://github.com/ai-planning/">Community GitHub</a> <br>
 <a href="https://pypi.org/project/planutils">PlanUtils</a> <br>
-<a href="https://planning.wiki">Planning Wiki (initial effort)</a>, including a <a href="https://planning.wiki/ref/planners/atoz">list of planners</a>.
-
-
+<a href="https://planning.wiki">Planning Wiki (initial effort)</a>, including a <a
+        href="https://planning.wiki/ref/planners/atoz">list of planners</a>.
 
 
 <br><br>
 
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-13265289-1");
-pageTracker._trackPageview();
-} catch(err) {}</script>
+    try {
+        var pageTracker = _gat._getTracker("UA-13265289-1");
+        pageTracker._trackPageview();
+    } catch (err) {
+    }</script>
+</body>
+</html>
