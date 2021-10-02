@@ -1,0 +1,21 @@
+AI Planning is a long-standing sub-area of AI, dealing with sequential
+decision making, a sister field to Reinforcement Learning. Mature industrial
+applications of planning technology can be seen in various fields, such as
+dialog systems, cybersecurity, transportation and logistics, as well as IT.
+While model-based planning tools allow to solve problems of practical size, applying AI 
+planning research in practice faces several challenges, preventing its
+widespread use. The alternative of using model-free methods, however, often
+proves infeasible for real-life size problems.
+The aim of this tutorial is to provide the audience with the
+necessary theoretical background knowledge, as well as hands-on experience to
+allow for using planning tools for solving everyday challenges.
+
+In this tutorial, we will provide an overview of the field of planning,
+including recent advances in the field. We will then dive into three challenges:
+(1) modeling: how to represent, extract, and learn the knowledge; 
+(2) theory: formal definition of the computational problems; 
+(3) tooling: how to solve the computational problems. 
+
+We will have a hands-on session to exemplify the use of
+planning tools for solving an example application. Our aim is to give AAAI
+attendees the necessary means for using AI planning tools in their applications.

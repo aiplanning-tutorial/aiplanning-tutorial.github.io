@@ -1,0 +1,6 @@
+Michael is a research staff member at IBM T.J. Watson Research Center. His
+research interests are in automated planning and autonomous systems, integration
+of planning and reinforcement learning. Michael's planners have won numerous
+awards. Michael is a member of ICAPS executive council. He was ICAPS2021 program
+co-chair, organizer of PRL and HSDIP workshops. He was a lecturer at ICAPS2013
+Summer School. He regularly serves as SPC for ICAPS, IJCAI and AAAI.

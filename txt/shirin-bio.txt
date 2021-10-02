@@ -1,0 +1,12 @@
+Shirin Sohrabi is a research staff member and research manager at IBM T.J.
+Watson Research Center in Yorktown Heights, New York. Her research interests are
+in the area of Artificial Intelligence (AI) with a focus on AI planning and its
+many applications. In particular, she is interested in knowledge engineering and
+modeling issues for AI planning, planning with preferences, cost-sensitive
+planning, diverse planning, as well as combining AI planning and reinforcement
+learning.   She has served as program co-chair of ICAPS 2020, as Novel
+Application Track co-chair of ICAPS 2018-2019, and as System Demonstration Track
+chair of AAAI 2018. She received the outstanding reviewer award at ICAPS-16.
+She regularly serves on the PC and SPCs of ICAPS, IJCAI and AAAI.  She is an ACM
+senior member and a member of ICAPS executive council. 
+ 

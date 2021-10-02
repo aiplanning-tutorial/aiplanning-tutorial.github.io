@@ -1,0 +1,14 @@
+Michael Katz is a research staff member at IBM T.J. Watson Research Center in
+Yorktown Heights, New York. His research interests are in the area of Artificial
+Intelligence (AI), focusing on automated planning and autonomous systems, as
+well as integration of planning and reinforcement learning techniques. Michael's
+tools for automated planning (also known as planners) have won numerous awards.
+Among them Delfi, the winner of the cost-optimal track of the International
+Planning Competition (IPC) 2018 and Mercury, the runner-up of the satisficing
+track of the International Planning Competition (IPC) 2014. Mercury planner has
+also received the Innovative Planner Award at IPC 2014. Michael is a member of
+ICAPS executive council. He has served as program co-chair of ICAPS 2021, and as
+an organizer of workshops PRL2020, HSDIP2011, HSDIP2013, HSDIP2014, HSDIP2015,
+HSDIP2016, HSDIP2018, was the Publicity Chair and Video Chair at ICAPS2015. He
+was also a lecturer at the ICAPS2013 Summer School. He regularly serves on the
+PC and SPCs of ICAPS, IJCAI and AAAI.
