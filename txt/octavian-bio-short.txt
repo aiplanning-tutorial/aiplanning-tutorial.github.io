@@ -1,0 +1,5 @@
+Octavian Udrea is a Principal Research Scientist at Dataminr, where his research
+focuses on knowledge representation and reasoning. Before that, he was a
+Research Scientist at IBM Research AI, where he designed and built the award
+winning IBM Scenario Planning Advisor, as well as multiple systems to automate
+the creation of data science and ML pipelines. 
